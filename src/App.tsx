@@ -5,6 +5,7 @@ import {
   ButtonShowcase,
   FeaturesSection,
   FlowingMenuSection,
+  MacbookSection,
 } from "@/Components/sections";
 
 /**
@@ -17,6 +18,7 @@ import {
  * - CurvedLoop marquee
  * - ScrollStack feature cards
  * - FlowingMenu
+ * - Macbook Scroll (Aceternity)
  */
 const App = () => {
   return (
@@ -31,6 +33,9 @@ const App = () => {
 
         {/* Button Showcase */}
         <ButtonShowcase />
+
+        {/* Macbook Scroll Section */}
+        <MacbookSection />
 
         {/* Features Scroll Stack */}
         <FeaturesSection />
