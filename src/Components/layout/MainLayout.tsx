@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 import Aurora from "@/Components/react-bits/Aurora";
 import { AURORA_CONFIG } from "@/constants";
 
